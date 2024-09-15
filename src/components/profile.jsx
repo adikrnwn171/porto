@@ -30,7 +30,7 @@ function Profile() {
           <div className="flex flex-col lg:flex-row items-start justify-between">
             <div className="text-center w-full max-w-[400px] mx-auto mb-[50px]">
               <div className="min-w-[300px] min-h-[300px] bg-gradient pt-[50px] rounded-full overflow-hidden">
-                <img src="images/profile.PNG" alt="profile" />
+                <img src="/images/profile.PNG" alt="profile" />
               </div>
               <h2 className="text-gradient text-[50px] mt-[20px]">
                 Wira Adi Kurniawan
