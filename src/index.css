@@ -9,17 +9,25 @@ body {
   overflow-x: hidden;
 }
 
-.active {
+/* .active {
   background: linear-gradient(45deg, #ff014f 20%, #011eff 70%);
+  border-radius: 50%;
+  color: #fff;
+} */
+.active {
+  background: linear-gradient(45deg, #4f72e5 20%, #0a3171 70%);
   border-radius: 50%;
   color: #fff;
 }
 
-.text-gradient {
+/* .text-gradient {
   @apply bg-gradient-to-r  text-transparent bg-clip-text from-[#ff014f] to-[#011eff] font-bold;
+} */
+.text-gradient {
+  @apply bg-gradient-to-r  text-transparent bg-clip-text from-[#0a3171] to-[#4f72e5] font-bold;
 }
 
-.bg-gradient {
+/* .bg-gradient {
   background: linear-gradient(
     92.23deg,
     #406aff 21.43%,
@@ -27,7 +35,29 @@ body {
     #b936ee 100%,
     #ff56f6 117.04%
   );
+} */
+.bg-gradient {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #0a3171 100%,
+    #4f72e5 117.04%
+  );
 }
+
 .section {
   @apply py-8 lg:py-24 lg:h-screen flex items-center;
+}
+
+.bg-third {
+  background-color: #0a3171;
+}
+
+.text-third {
+  color: #169094;
+}
+
+.border-third {
+  border-color: #29a3a7;
 }

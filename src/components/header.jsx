@@ -1,4 +1,5 @@
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 
 function Header() {
   return (
@@ -24,6 +25,14 @@ function Header() {
             data-aos-duration="500"
             data-aos-delay="0"
           >
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=adikrnwn171@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MdEmail />
+            </a>
+
             <a
               href="https://github.com/adikrnwn171"
               target="_blank"
